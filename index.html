@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>W3.CSS Template</title>
+  <title>SafeLink</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -17,8 +17,8 @@ body {font-family: "Lato", sans-serif}
   <div class="w3-bar w3-black w3-card">
     <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
-    <a href="#product" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PRODUCT DETAILS</a>
-    <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT ME</a>
+    <a href="#product" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PRODUCT</a>
+    <a href="about.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT ME</a>
     <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
     <a href="privacy.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PRIVACY POLICY</a>
   </div>
@@ -26,8 +26,8 @@ body {font-family: "Lato", sans-serif}
 
 <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
 <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-  <a href="#product" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PRODUCT DETAILS</a>
-  <a href="#about" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT ME</a>
+  <a href="#product" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PRODUCT</a>
+  <a href="about.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT ME</a>
   <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
   <a href="privacy.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PRIVACY POLICY</a>
 </div>
@@ -43,17 +43,19 @@ body {font-family: "Lato", sans-serif}
     lead to out of domain sites and potentially suspicious sites.</p>
     <div class="w3-row w3-padding-32"><h2 class="w3-wide">TECH STACK</h2></div>
     <div>
-      <div class="w3-third">
-        <p>Frontend</p>
-        <img src="/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      <div class="w3-half">
+        <img src="html.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+        <h3><p><strong>Frontend</strong></p></h3>
+        <p>HTML</p>
+        <p>CSS</p>
+        <p>Javascript</p>
       </div>
-      <div class="w3-third">
-        <p>Backend</p>
-        <img src="/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
-      </div>
-      <div class="w3-third">
-        <p>Additional</p>
-        <img src="/w3images/bandmember.jpg" class="w3-round" alt="Random Name" style="width:60%">
+      <div class="w3-half">
+        <img src="python.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+        <h3><p><strong>Backend</strong></p></h3>
+        <p>Python Flask</p>
+        <p>AJAX</p>
+        <p>JSON</p>
       </div>
     </div>
   </div>
